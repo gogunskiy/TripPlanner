@@ -42,7 +42,7 @@ struct RouteFinder {
 
             // Updates costs and parents for neighboring cities
             for connection in connectionsFrom(city: current, connectionsData: connectionsData) {
-                let totalCost = costs[current] ?? 0.0 + connection.price
+                let totalCost = (costs[current] ?? 0.0) + connection.price
 
                 if totalCost < costs[connection.to] ?? 0.0 {
                     costs[connection.to] = totalCost

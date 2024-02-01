@@ -28,6 +28,7 @@
 		797B27982B6667DF001A2CD3 /* MapViewHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937EC0F2B619DA70036394A /* MapViewHelperTests.swift */; };
 		797B27992B6667DF001A2CD3 /* ConnectionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937EC4B2B62E6AC0036394A /* ConnectionsViewModelTests.swift */; };
 		797B27A92B6675AB001A2CD3 /* ConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B27A82B6675AB001A2CD3 /* ConnectionTests.swift */; };
+		799FEDE32B6B85B200E6965F /* ColorPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799FEDE22B6B85B200E6965F /* ColorPallete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		797B27812B66567D001A2CD3 /* ConnectionSearchButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionSearchButtonView.swift; sourceTree = "<group>"; };
 		797B278E2B6667CC001A2CD3 /* TripPlannerUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripPlannerUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		797B27A82B6675AB001A2CD3 /* ConnectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionTests.swift; sourceTree = "<group>"; };
+		799FEDE22B6B85B200E6965F /* ColorPallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPallete.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				797B277D2B66563A001A2CD3 /* ConnectionResultsView.swift */,
 				797B277F2B66565A001A2CD3 /* ConnectionFieldView.swift */,
 				797B27812B66567D001A2CD3 /* ConnectionSearchButtonView.swift */,
+				799FEDE22B6B85B200E6965F /* ColorPallete.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				7937EC2C2B619E940036394A /* NetworkAgent.swift in Sources */,
 				7937EC2E2B619F430036394A /* NetworkAgentProtocol.swift in Sources */,
 				7937EC422B62C6B10036394A /* MapViewHelper.swift in Sources */,
+				799FEDE32B6B85B200E6965F /* ColorPallete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

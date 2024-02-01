@@ -27,19 +27,9 @@ Navigation is not covered in this demo.
 
 ## User Interface
 
-### iPhone
-
 | Light  | Dark |
 | ------------- | ------------- |
 | ![iPhone15 Light](readmefiles/iPhone_15_light.png)  | ![iPhone15 Dark](readmefiles/iPhone_15_dark.png)  |
-| ![iPhoneSE Light](readmefiles/iPhone_SE_light.png)  | ![iPhoneSE Dark](readmefiles/iPhone_SE_dark.png) |
-
-
-### iPad
-
-| Portrait  | Landscape |
-| ------------- | ------------- |
-| ![iPad Portrait](readmefiles/iPad_portrait.png) | ![iPad Landscape](readmefiles/iPad_landscape.png) | 
 
 
 ## Test Coverage 

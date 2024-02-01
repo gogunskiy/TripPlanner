@@ -7,7 +7,7 @@ struct ConnectionFieldView: View {
         TextField(viewModel.placeHolder, text: $viewModel.searchTerm)
             .padding()
             .font(.title)
-            .background(Color.black)
+            .background(Color.appBlack)
             .cornerRadius(8)
             .foregroundColor(.white)
     }

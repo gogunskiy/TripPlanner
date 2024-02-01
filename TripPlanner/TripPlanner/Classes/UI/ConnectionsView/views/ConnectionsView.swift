@@ -8,7 +8,7 @@ struct ConnectionsView: View {
             VStack(alignment: .leading, spacing: 16) {
                 if viewModel.isEmpty {
                     ProgressView()
-                        .progressViewStyle(CircularProgressViewStyle(tint: .gray))
+                        .progressViewStyle(CircularProgressViewStyle(tint: Color.appGray))
                         .frame(maxWidth: .infinity)
                 }
                 
@@ -25,7 +25,7 @@ struct ConnectionsView: View {
             .navigationBarTitle(viewModel.title, displayMode: .inline)
         }
         .navigationViewStyle(StackNavigationViewStyle())
-         .onAppear {
+        .onAppear {
             viewModel.fetchConnections()
         }
     }
